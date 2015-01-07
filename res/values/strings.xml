@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">ETA</string>
+    <string name="action_settings">Settings</string>
+    <string name="button_create">CreateTrip</string>
+    <string name="button_view">ViewTrip</string>
+    <string name="button_contact">Contact book</string>
+    <string name="button_alarm">Stop update location</string>
+    <string name="text_time">Trip Time:</string>
+    <string name="text_data">Trip Data:</string>
+    <string name="text_location">Trip Location:</string>
+    <string name="text_username">Your Name:</string>    
+    <string name="text_userlocation">Your Location:</string>    
+    <string name="text_participant">Participants:</string>    
+    <string name="text_tripName">Trip Name:</string> 
+    <string name="button_OK">OK</string>
+    <string name="button_Back">Back</string>
+    <string name="button_cancel">Cancel</string>
+    <string name="alart_Title">Message</string>    
+    <string name="alert_Message">There is no trip!</string>    
+    <string name="alert_Ok">OK</string>
+    <string name="field_required">Please fill in this field</string>
+    <string name="cur_trip"> Current Trip ID: </string>
+    <color name="green">#7cd12e</color>
+    <color name="gray">#938192</color>
+    <color name="trans">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="orange">#ffa500</color>
+    <color name="back_green">#C5F69A</color>
+    
+</resources>

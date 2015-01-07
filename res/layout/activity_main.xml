@@ -1,0 +1,60 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/night"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity" >
+    <Button
+        android:id="@+id/buttonCreat"
+        style="@style/RoundedCornerBtnWithRightArrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="@string/button_create" />
+    
+    <Button
+        android:id="@+id/buttonView"
+        style="@style/RoundedCornerBtnWithRightArrow"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/buttonCreat"
+        android:text="@string/button_view" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/buttonView"
+        android:layout_alignRight="@+id/buttonView"
+        android:layout_below="@+id/buttonView"
+        android:layout_marginTop="10dp"
+        android:background="@color/back_green"
+        android:ems="10" >
+    </TextView>
+    
+    <ListView
+        android:id="@+id/listViewCurTrip"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignRight="@+id/textView2"
+        android:layout_below="@+id/textView2"
+        android:background="@color/back_green" >
+    </ListView>
+
+    <Button
+        android:id="@+id/buttonAlarm"
+        style="@style/RoundedCornerBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:text="@string/button_alarm" />
+
+</RelativeLayout>

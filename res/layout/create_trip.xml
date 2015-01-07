@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" 
+	>
+
+    <EditText
+        android:id="@+id/editText7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_username" 
+        android:visibility="gone" />
+
+
+    <EditText
+        android:id="@+id/editTextUserName "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:visibility="gone" >
+        
+        
+
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_userlocation" 
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/editTextUserLoca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" 
+        android:visibility="gone" />
+    
+    <EditText
+        android:id="@+id/TextTripName "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_tripName" />
+
+    <EditText
+        android:id="@+id/editTextTripName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" >
+        <requestFocus />
+    </EditText>
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_time" />
+
+    <EditText
+        android:id="@+id/editTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" >
+    </EditText>
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_data" />
+
+    <EditText
+        android:id="@+id/editTextData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="number" />
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_location" />
+
+    <EditText
+        android:id="@+id/editTextTripAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" >
+
+    </EditText>
+    <EditText
+        android:id="@+id/editText11"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_participant" />
+
+	                <EditText
+	                    android:id="@+id/editTextParticipant"
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_alignTop="@+id/buttonContact"></EditText>
+
+	                <Button
+	                    
+	                    android:id="@+id/buttonContact"
+	                    android:layout_height="wrap_content"
+	                    android:layout_width="wrap_content"
+	                    android:layout_alignParentRight="true"
+	                    android:text="@string/button_contact"
+	                    style="@style/RoundedCornerBtn" />
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <Button
+            android:id="@+id/buttonOK"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/button_OK" 
+            style="@style/RoundedCornerBtn"/>
+
+        <Button
+            android:id="@+id/buttonCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:text="@string/button_cancel" 
+            style="@style/RoundedCornerBtn"/>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>
+</ScrollView>

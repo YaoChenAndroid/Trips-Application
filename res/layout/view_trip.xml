@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none">
+<LinearLayout 
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+     <EditText
+        android:id="@+id/viewText7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_username"
+        android:visibility="gone" />
+
+    <EditText
+        android:id="@+id/viewUserName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName" 
+        android:focusable="false"
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/viewText9"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_userlocation" 
+        android:visibility="gone"/>
+
+    <EditText
+        android:id="@+id/viewTextUserLoca"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" 
+        android:focusable="false"
+        android:visibility="gone"/>
+    <EditText
+        android:id="@+id/viewTextNameView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_tripName" 
+        />
+
+    <EditText
+        android:id="@+id/viewTextTripNameView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/viewText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_time" 
+        />
+
+    <EditText
+        android:id="@+id/viewTextTime"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="time" 
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/viewText4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_data" />
+
+    <EditText
+        android:id="@+id/viewTextData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="date" 
+        android:focusable="false"/>
+
+    <EditText
+        android:id="@+id/viewText6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_location" />
+
+    <EditText
+        android:id="@+id/viewTextTripAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPostalAddress" 
+        android:focusable="false">
+
+    </EditText>   
+    <EditText
+        android:id="@+id/viewText11"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:focusable="false"
+        android:text="@string/text_participant" />
+
+    <EditText
+        android:id="@+id/viewTextParticipant"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ems="10" 
+        android:focusable="false"/>
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_OK" 
+        style="@style/RoundedCornerBtn"/>
+"
+</LinearLayout>
+</ScrollView>
